@@ -5,3 +5,51 @@ main-titles dark-grey: #2C303F;
 paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
+body{
+    margin:0;
+    font-size: 10px; 
+    background-color: #F4F3F4;
+    width: 100%;
+}
+nav{
+    position:fixed; left:0; top: 0;
+    border-top: 1px solid lightgray; border-bottom: 1px solid lightgray;
+    width:100%;
+}
+nav img {
+    height:10em;
+    margin-left:35px;
+}
+header{
+    padding-top: 115px;
+    margin-left: 25px;margin-right: 25px;
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    font-size: 7em;
+    margin-bottom: 0;
+    width: 60%;
+    color: #323747;
+}
+header p {
+    font-size: 4em;
+    color:#656775;
+    margin:40px auto 40px auto;
+}
+header input{
+    color:#757575;
+    border:1px solid #757575;
+    border-radius:5px;
+    font-size: 3em;
+    line-height: 3em;
+    margin:30px 0 30px 0;
+}
+
+header button{
+    color:white;
+    background-color: #4049aa;
+    border:none;
+    font-size: 3em;
+    line-height: 3em;
+}
