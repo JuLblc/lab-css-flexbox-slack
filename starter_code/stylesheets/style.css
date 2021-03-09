@@ -8,13 +8,13 @@ nav grey: #5b5e6d;
 body{
     margin:0;
     font-size: 10px; 
-    background-color: #F4F3F4;
-    width: 100%;
 }
 nav{
-    position:fixed; left:0; top: 0;
+    position:fixed;
+    left:0; top: 0;
     border-top: 1px solid lightgray; border-bottom: 1px solid lightgray;
-    width:100%;
+    width:100vw;
+    background-color: white;
 }
 nav img {
     height:10em;
@@ -29,7 +29,6 @@ header{
 h1{
     font-size: 7em;
     margin-bottom: 0;
-    width: 60%;
     color: #323747;
 }
 header p {
@@ -45,11 +44,47 @@ header input{
     line-height: 3em;
     margin:30px 0 30px 0;
 }
-
 header button{
     color:white;
     background-color: #4049aa;
     border:none;
     font-size: 3em;
     line-height: 3em;
+    border-radius:5px;
+}
+header a{
+    color: #9095cd;
+}
+#company{
+    background-color: #f5f5f5;
+    text-align: center;
+    padding-left: 25px;padding-right: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: 1px solid lightgrey;
+}
+h2{
+    font-size: 5.5em;
+    color: #323747;
+}
+#company p{
+    color: #a9abb2;
+    font-size: 4em;    
+}
+#company button{
+    color:#21329b;
+    background-color:white;
+    border:1px solid#dddff0;
+    font-size: 2.5em;
+    line-height: 2.5em;
+    border-radius:4px;
+    width: 100%;
+    font-weight: 600;
+}
+#company img{
+    max-width:60vw;
+    height: auto;
+    border-bottom:1px solid lightgrey; ;
+    ppadding:25px;
 }
