@@ -7,7 +7,7 @@ nav grey: #5b5e6d;
 */
 body{
     margin:0;
-    font-size: 10px; 
+    font-size: 7px; 
 }
 nav{
     position:fixed;
@@ -21,7 +21,7 @@ nav img {
     margin-left:35px;
 }
 header{
-    padding-top: 115px;
+    padding-top: 75px;
     margin-left: 25px;margin-right: 25px;
     display: flex;
     flex-direction: column;
@@ -31,20 +31,20 @@ h1{
     margin-bottom: 0;
     color: #323747;
 }
-header p {
+.using-slack {
     font-size: 4em;
     color:#656775;
-    margin:40px auto 40px auto;
+    margin:20px auto 20px auto;
 }
-header input{
+.ipt-email{
     color:#757575;
     border:1px solid #757575;
     border-radius:5px;
     font-size: 3em;
     line-height: 3em;
-    margin:30px 0 30px 0;
+    margin:20px 0 20px 0;
 }
-header button{
+.btn-email{
     color:white;
     background-color: #4049aa;
     border:none;
@@ -52,7 +52,7 @@ header button{
     line-height: 3em;
     border-radius:5px;
 }
-header a{
+.using-slack a{
     color: #9095cd;
 }
 #company{
@@ -86,5 +86,75 @@ h2{
     max-width:60vw;
     height: auto;
     border-bottom:1px solid lightgrey; ;
-    ppadding:25px;
+    padding:25px;
+}
+#subscribe{
+    margin-left: 25px;
+    margin-right: 25px;
+    display: flex;
+    flex-direction: column;
+}
+#subscribe p:first-child{
+    margin:40px auto 0 auto;
+    font-size: 4em;
+    font-weight: 600;
+}
+#subscribe p:nth-child(2){
+    color:black;
+}
+footer{
+    margin-top:60px;
+    border-top: 1px solid lightgray;
+}
+footer > img{
+    width: 150px;
+    height: auto;
+}
+#footer-top-div{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 25px;margin-right: 25px;
+}
+#footer-top-div ul{
+    color: #6d6f7a;
+    margin-top: 0;
+    padding: 0;
+    list-style: none;
+    width: 50%;
+    font-size: 3em;
+    line-height: 2.5em;
+}
+#footer-top-div ul li:first-child{
+    font-weight: 650;
+}
+#footer-bottom-div{
+    background-color:#f5f5f5;
+    display: flex;
+    flex-direction: column;
+    font-weight: 700;
+    color: #6d6f7a;
+    font-size: 2em;
+}
+#footer-bottom-div ul{
+    margin-left: auto;margin-right: auto;
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+#footer-bottom-div ul li{
+    padding:10px;    
+}
+#footer-bottom-div div{
+    display: flex;
+    justify-content: center;
+    margin:10px;
+}
+#footer-bottom-div img{
+    width: auto;
+    height: 2em;
+    padding:0 10px 0 10px;
+}
+#footer-bottom-div span, #footer-bottom-div i{
+    line-height: 2em;
+    padding:0 10px 0 10px;
 }
